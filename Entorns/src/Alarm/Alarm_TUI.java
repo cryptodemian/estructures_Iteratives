@@ -29,10 +29,8 @@ public class Alarm_TUI {
 			s = secondsLeft % 60;
 			
             System.out.printf("Queda: %02d:%02d:%02d\n", h, m, s);
-            try {
-                Thread.sleep(1000);
-            } catch (InterruptedException e) {
+            
+            System.out.print("NUEVA LINIA");
             }
         }
     }
-}
